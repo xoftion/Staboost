@@ -9,4 +9,5 @@ pip install -r staboost/requirements.txt
 python staboost/manage.py collectstatic --no-input
 
 # Apply database migrations
+python staboost/manage.py makemigrations
 python staboost/manage.py migrate
